@@ -1,0 +1,65 @@
+.chat {
+    margin-left: 290px;
+}
+
+.message-input {
+   width: 85%;
+   height: 40px;
+   border-radius: 20px ;
+   text-align: bottom;
+   margin-bottom: 5px;
+   padding-left: 10px;
+}
+
+#sendform {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#messages {
+    margin-bottom: 45px;
+    list-style-type: none;
+    height: 95%;
+    flex: 3;
+}
+
+#sendform button {
+    background: rgb(130, 224, 255);
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+.message-bubble-me {
+    background-color: #248bf5; 
+    padding: 10px; 
+    display: table;
+    border-radius: 15px;
+}
+
+.message-bubble-their {
+    background-color: #e5e5ea;
+    padding: 10px;
+    display: table;
+    border-radius: 15px;
+}
+
+.message-bubble-me p {
+    color: white;
+}
+
+.message-bubble-me label {
+    color: rgb(238, 255, 0);
+}
+
+.message-bubble-their label {
+    color: #06cf9c;
+}

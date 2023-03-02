@@ -1,0 +1,44 @@
+.cards-row {
+    display:flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color:white;
+    display: flex;
+    width:40%;
+    box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    margin: 30px 55px 20px 70px;
+}
+
+.row {
+    display: flex;
+}
+
+.img {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.content h2 {
+    color: #494949;
+    padding-bottom: 7px;
+}
+
+.content h1 {
+    padding-bottom: 20px;
+}
+.content p {
+    color: #494949;
+    padding-bottom: 10px;
+}
